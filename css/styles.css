@@ -127,6 +127,7 @@ p {
 }
 
 .h-one {
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -167,7 +168,6 @@ p {
   align-items: center;
   padding-top: 120px;
   padding-bottom: 120px;
-  width: calc(100% - 72px) / 3;
 }
 
 .studio-list {

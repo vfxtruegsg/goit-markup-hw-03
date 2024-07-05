@@ -34,7 +34,7 @@ p {
 /* common */
 
 .container {
-  max-width: 1158x;
+  width: 1158x;
   padding: 0 15px;
   margin: 0 auto;
 }

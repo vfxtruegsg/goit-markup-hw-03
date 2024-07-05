@@ -24,8 +24,8 @@
   </head>
 
   <body>
-    <header class="page-header">
-      <div class="container header-container">
+    <header class="page-header container">
+      <div class="header-container">
         <nav class="header-nav">
           <a class="nav-logo header-logo" href="./index.html"
             >Web<span class="logo-part">Studio</span></a
@@ -65,7 +65,7 @@
           <button class="service-button" type="button">Order Service</button>
         </div>
       </section>
-      <section>
+      <section class="our-studio-section">
         <div class="container">
           <h2 hidden>Our Studio</h2>
           <ul class="our-studio-list">
@@ -111,8 +111,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="ourteem-workers">Mark Guerrero</h3>
-              <p class="ourteem-position">Product Designer</p>
+              <div class="work-position">
+                <h3 class="ourteem-workers">Mark Guerrero</h3>
+                <p class="ourteem-position">Product Designer</p>
+              </div>
             </li>
             <li class="ourteam-list-item">
               <img
@@ -121,8 +123,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="ourteem-workers">Tom Ford</h3>
-              <p class="ourteem-position">Frontend Developer</p>
+              <div class="work-position">
+                <h3 class="ourteem-workers">Tom Ford</h3>
+                <p class="ourteem-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="ourteam-list-item">
               <img
@@ -131,8 +135,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="ourteem-workers">Camila Garcia</h3>
-              <p class="ourteem-position">Marketing</p>
+              <div class="work-position">
+                <h3 class="ourteem-workers">Camila Garcia</h3>
+                <p class="ourteem-position">Marketing</p>
+              </div>
             </li>
             <li class="ourteam-list-item">
               <img
@@ -141,8 +147,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="ourteem-workers">Daniel Wilson</h3>
-              <p class="ourteem-position">UI Designer</p>
+              <div class="work-position">
+                <h3 class="ourteem-workers">Daniel Wilson</h3>
+                <p class="ourteem-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -151,76 +159,85 @@
         <div class="container">
           <h2 class="h-portfolio">Our Portfolio</h2>
           <ul class="out-portfolio-list">
-            <div class="portfolio-list-one">
-              <li class="portfolio-item">
-                <img
-                  class="portfolio-img"
-                  src="./images/banking-app-min.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="360"
-                />
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./images/banking-app-min.jpg"
+                alt="Banking App"
+                width="360"
+                height="360"
+              />
+              <div class="fun-form">
                 <h3 class="portfolio-functionality">Banking App</h3>
                 <p class="portfolio-form">App</p>
-              </li>
-              <li class="portfolio-item">
-                <img
-                  class="portfolio-img"
-                  src="./images/cashless-payment-min.jpg"
-                  alt="Cashless Paiment"
-                  width="360"
-                  height="360"
-                />
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./images/cashless-payment-min.jpg"
+                alt="Cashless Paiment"
+                width="360"
+                height="360"
+              />
+              <div class="fun-form">
                 <h3 class="portfolio-functionality">Cashless Payment</h3>
                 <p class="portfolio-form">Marketing</p>
-              </li>
-              <li class="portfolio-item">
-                <img
-                  class="portfolio-img"
-                  src="./images/meditation-app-min.jpg"
-                  alt="Meditation App"
-                  width="360"
-                  height="360"
-                />
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./images/meditation-app-min.jpg"
+                alt="Meditation App"
+                width="360"
+                height="360"
+              />
+              <div class="fun-form">
                 <h3 class="portfolio-functionality">Meditation App</h3>
                 <p class="portfolio-form">App</p>
-              </li>
-            </div>
-            <div class="portfolio-list-two">
-              <li class="portfolio-item">
-                <img
-                  class="portfolio-img"
-                  src="./images/taxi-service-min.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="360"
-                />
+              </div>
+            </li>
+
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./images/taxi-service-min.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="360"
+              />
+              <div class="fun-form">
                 <h3 class="portfolio-functionality">Taxi Service</h3>
                 <p class="portfolio-form">Marketing</p>
-              </li>
-              <li class="portfolio-item">
-                <img
-                  class="portfolio-img"
-                  src="./images/screen-ill-min.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="360"
-                />
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./images/screen-ill-min.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="360"
+              />
+              <div class="fun-form">
                 <h3 class="portfolio-functionality">Screen Illustrations</h3>
                 <p class="portfolio-form">Design</p>
-              </li>
-              <li class="portfolio-item">
-                <img
-                  class="portfolio-img"
-                  src="./images/online-courses-min.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="360"
-                />
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./images/online-courses-min.jpg"
+                alt="Online Courses"
+                width="360"
+                height="360"
+              />
+              <div class="fun-form">
                 <h3 class="portfolio-functionality">Online Courses</h3>
                 <p class="portfolio-form">Marketing</p>
-              </li>
-            </div>
+              </div>
+            </li>
           </ul>
         </div>
       </section>

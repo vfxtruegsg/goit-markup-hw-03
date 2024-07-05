@@ -165,9 +165,13 @@ p {
 
 .our-studio-list {
   display: flex;
-  align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 120px 0;
+}
+
+.our-studio-list-item {
+  width: 264px;
 }
 
 .studio-list {
@@ -214,7 +218,7 @@ p {
 .ourteam-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
   gap: 32px;
 }
@@ -253,20 +257,46 @@ p {
   padding-bottom: 72px;
 }
 
+.portfolio-item {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.portfolio-list-one {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-list-two {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
 .portfolio-functionality {
+  display: block;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 8px;
 }
 
 .portfolio-form {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 /* footer */

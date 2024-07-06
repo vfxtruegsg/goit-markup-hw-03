@@ -250,7 +250,6 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -260,8 +259,11 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
   text-align: center;
+}
+
+.work-position {
+  padding: 32px 0;
 }
 
 /* section-three */
